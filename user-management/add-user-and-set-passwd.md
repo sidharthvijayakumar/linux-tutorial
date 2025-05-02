@@ -1,11 +1,14 @@
 ## 👥 Get to Know how to add Users in a Linux System
 
+The `useradd` command is used to add a user accounts in Linux.
+
+## 🧹 Basic Usage
 Create a user with a comment (typically the full name):
+
+The useradd command is widely supported across most Linux distros (Ubuntu, Debian, CentOS, RHEL, Fedora, Arch)
 
 bash
 ```
-The useradd command is widely supported across most Linux distros (Ubuntu, Debian, CentOS, RHEL, Fedora, Arch)
-
 sudo useradd -c "Sidharth v" sidharth
 ```
 Create the user (with home directory and default shell)
