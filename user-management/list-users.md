@@ -12,7 +12,9 @@ These commands will help you list users:
 cat /etc/passwd
 getent passwd
 cut -d':' -f1 /etc/passwd or cat /etc/passwd | cut -d':' -f1
+```
 
 To get both the username and their home directory:
 ```bash
 cut -d':' -f1,6 /etc/passwd
+```
