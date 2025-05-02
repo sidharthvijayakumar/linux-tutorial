@@ -27,5 +27,6 @@ If the user is running a process, you may need to kill it before deletion:
 pkill -u sidharth
 ```
 Use with caution – this will delete the user and their files, even if they’re logged in.
-
+```bash
 sudo userdel -r -f sidharth
+```
