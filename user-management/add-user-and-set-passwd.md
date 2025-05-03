@@ -6,8 +6,7 @@ The `useradd` command is used to add a user accounts in Linux.
 Create a user with a comment (typically the full name):
 
 The useradd command is widely supported across most Linux distros (Ubuntu, Debian, CentOS, RHEL, Fedora, Arch)
-
-
+Some distros automatically creates a home directory for the user but some distros do not doe this hence its recommended to use -m flag
 ```bash
 sudo useradd -c "Sidharth v" sidharth
 ```
